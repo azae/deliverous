@@ -1,7 +1,7 @@
 site:
   image: azae/azae.net
   ports:
-    ip: 178.32.240.90 
+  - ip: 178.32.240.90 
     container_port: 22
     host_port: 22
 
