@@ -4,9 +4,9 @@ front:
   - ip: 178.32.240.90 
     container_port: 80
     host_port: 80
-  links:
-    - name: gogs
-      alias: gogs
+#  links:
+#    - name: gogs
+#      alias: gogs
 
 
 #gogs:
