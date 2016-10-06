@@ -4,21 +4,21 @@ front:
   - ip: 178.32.240.90 
     container_port: 80
     host_port: 80
-#  links:
-#    - name: gogs
-#      alias: gogs
+  links:
+    - name: gogs
+      alias: gogs
 
 
-#gogs:
-#  image: gogs/gogs
-#  ports:
-#  - ip: 178.32.240.90 
-#    container_port: 22
-#    host_port: 22
-#  - ip: 178.32.240.90 
-#    container_port: 3000
-#    host_port: 3000
-#  volumes:
-#    - name: gogs
-#      path: /data
+gogs:
+  image: gogs/gogs
+  ports:
+  - ip: 178.32.240.90 
+    container_port: 22
+    host_port: 22
+  - ip: 178.32.240.90 
+    container_port: 3000
+    host_port: 3000
+  volumes:
+    - name: gogs
+      path: /data
 
