@@ -10,6 +10,8 @@ gogs:
   volumes:
     - name: gogs
       path: /data
+  deploy_with:
+  - front
 
 front:
   image: azae/azae.net
