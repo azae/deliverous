@@ -4,3 +4,10 @@ front:
   - ip: 178.32.240.90 
     container_port: 80
     host_port: 80
+
+mattermost:
+  image: mattermost/mattermost-preview
+  ports:
+  - ip: 178.32.240.90
+    container_port: 8065
+    host_port: 8065
